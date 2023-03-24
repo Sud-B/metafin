@@ -33,6 +33,7 @@ h1, h2 {
 h1 {
 	margin: 0.5em 2em 0em 1em;
 	position: fixed;
+	padding: 0.5em;
 }
 h2 {
 	width: 100%;
@@ -55,7 +56,7 @@ h4 {
 }
 /*Navigation content*/
 nav {
-	width: 75%;
+	width: 60%;
 	display: inline-block;
 	font-size: 1.3em;
 	padding-top: 0.5em;
@@ -65,7 +66,7 @@ nav {
 nav li {
 	display: inline;
 	background-color: white;
-	padding-bottom: 0.3em;
+	padding: 0.3em;
 	text-decoration: none;
 	font-weight: bold;
 	float: right;
@@ -74,12 +75,13 @@ nav a {
 	display: inline;
 	color: #313186;
 	background-color: white;
-	text-decoration: none;	
+	text-decoration: none;
+	font-size: 1.1em;
 }
 nav a:hover {
-	color: #FF4C00;
-	background-color: #313186;
-	transform: scaleY(1.8);	
+	color: #DA1E05;
+	background-color: black;
+	transform: scale(1.8);	
 }
 /*Content using id tags*/
 .block {
@@ -111,7 +113,7 @@ img {
 p {
 	padding: 0.3em;
 	text-decoration: none;
-	color: #313186;
+	color: black;
 	margin: 0.2em;
 	float: clear;
 	font-weight: bold;
@@ -143,10 +145,10 @@ button {
 	margin: 0.3em;
 }
 .boxn {
-	border: 0.2em solid #DA1E05;
+	border: 0.3em solid #DA1E05;
 	border-radius: 20%;
 	padding: 0.2em;
-	margin: 0.2em;
+	margin: 0.3em;
 	text-align: center;
 }
 .boxo {
