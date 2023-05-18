@@ -79,8 +79,8 @@ nav a {
 	font-size: 1.1em;
 }
 nav a:hover {
-	color: #DA1E05;
-	background-color: black;
+	color: white;
+	background-color: #313186;
 	transform: scale(1.8);	
 }
 /*Content using id tags*/
